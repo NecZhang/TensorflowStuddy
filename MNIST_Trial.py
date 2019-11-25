@@ -41,9 +41,9 @@ model.add(Dense(num_classes, activation = 'softmax', name = 'Dense_2'))
 model.summary()
 
 
-# from tensorflow.keras.utils import plot_model
-#
-# plot_model(model, to_file = 'mnist.png')
+from tensorflow.keras.utils import plot_model
+
+plot_model(model, to_file = 'mnist.png')
 
 
 from tensorflow.keras.optimizers import RMSprop
