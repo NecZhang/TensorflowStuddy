@@ -2,8 +2,8 @@ import tensorflow as tf
 import numpy as np
 
 
-# print(tf.__version__)
-# print(tf.keras.__version__)
+print(tf.__version__)
+print(tf.keras.__version__)
 
 
 (x_train, y_train), (x_text, y_text) = tf.keras.datasets.mnist.load_data(path = 'mnist.npz')
